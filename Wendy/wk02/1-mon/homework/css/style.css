@@ -1,0 +1,45 @@
+#logo{
+  text-align: center;
+  padding-top: 15px;
+  }
+
+#footer{
+  text-align: center;
+  padding-top: 15px;
+}
+
+#middleContent {
+    width: 40%;
+    background-color:white;
+    padding:20px;
+    padding-top: 20px;
+    margin-top: 80px;
+    margin-left: 250px;
+  }
+
+#rightContent {
+    display: inline-block;
+    width: 10%;
+    background-color:white;
+    padding:20px;
+    padding-top: 20px;
+    margin-top: 80px;
+    margin-left: 600px;
+    }
+
+  p {
+    	font-family: Verdana, Geneva, sans-serif;
+    	font-size: 10px;
+    	font-style: normal;
+    	font-variant: normal;
+    	font-weight: 500;
+    	line-height: 26.4px;
+    }
+
+.container{
+display: inline-block;
+}
+
+p.highlight{
+
+  }

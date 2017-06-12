@@ -1,0 +1,9 @@
+.info {
+box-sizing: border-box;
+border: 5px solid black;
+width: 100px;
+}
+
+.span{
+  width: 100px;
+}

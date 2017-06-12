@@ -1,0 +1,46 @@
+.brand{
+  Color: Red;
+  font-size:40px;
+  float:left;
+}
+.box1{
+  display: inline-block;
+}
+
+.slogan{
+  color: grey;
+  display: inline-block;
+  padding-top: 18px;
+  font-size: 20px;
+  padding-left: 25px;
+}
+
+.mainContainer{
+display:inline-block;
+}
+
+main{
+  margin-left:10%;
+  padding:20px;
+}
+
+article{
+  /*margin-left: 20px;*/
+  border: 15px;
+  max-width: 70%;
+
+}
+
+.articleImage{
+  max-width: 98%;
+  text-align: right;
+}
+
+h1{
+  color: grey;
+  font-size:20px;
+}
+
+h2{
+  color: blue;
+}
