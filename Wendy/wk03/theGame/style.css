@@ -9,8 +9,6 @@ h1{
   font-size: 40px;
 }
 
-
-
 .Columns {
  display: inline-block;
  height: 350px;
@@ -42,7 +40,7 @@ h1{
   font-family:monospace;
 }
 
-#Column1, #Column2,#Column4,#Column5{
+#Column1,#Column2,#Column4,#Column5{
   background-color: white;
   display: inline-block;
   height: 100px;
@@ -96,6 +94,11 @@ h1{
   border-right:5px solid white;
 }
 
+#Column1:hover,#Column2:hover,#Column3:hover,#Column4:hover,#Column5:hover,#Column6:hover,#Column7:hover,#Column8:hover,#Column9:hover {
+    background-color: #C0C0C0;
+    color:  white;
+}
+
 #Reset{
    background-color: white;
    display:inline-block;
@@ -104,15 +107,31 @@ h1{
    font-family:monospace
 }
 
-#Column1:hover,#Column2:hover,#Column3:hover,#Column4:hover,#Column5:hover,#Column6:hover,#Column7:hover,#Column8:hover,#Column9:hover {
-    background-color: #C0C0C0;
-    color:  white;
-}
-
-#Reset:hover {
+#Reset:hover, #music:hover {
   background-color: #C0C0C0;
   border-radius: 50px;;
   color:white;
+}
+
+#music{
+   background-color: white;
+   display:inline-block;
+   padding:10px;
+   color: #336699;
+   font-family:monospace
+}
+
+#Win1, #Win2, #Win3, #Win4, #Win5, #Win6, #Win7, #Win8, #Win9{
+  background-color: #C0C0C0;
+  color: white;
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  line-height: 100px;
+  text-align: center;
+  font-size: 110px;
+  font-family:monospace;
+  vertical-align: middle;
 }
 
 .line1 {
